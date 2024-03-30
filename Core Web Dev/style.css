@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0 px;
+}
+body{
+    background-color: #080808;
+}
+.header{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background:  #1d2951;
+    align-items: center;
+    color: #fff;
+}
+.header a span{
+    color: #ff0000;
+}
+.logo{
+    color: #fff;
+    position: sticky;
+    font-size: 25px;
+    font-weight: 600;
+}
+.navbar a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+.navbar a:hover{
+    color:#f4ca16;
+}
+.home{
+    position: relative;
+    width: 70%; 
+    justify-content: space-between;
+    height: 100vh; 
+    background: url(./Images/DG.png) no-repeat; 
+    background-size: cover;
+    background-position: center; 
+    display: flex; 
+    align-items: center; 
+    padding: 70px 10% 0;
+    justify-content: space-between;
+}
+.content-home h3 span{
+    color: #f4ca16;
+}
+.content-home h3{
+    color: #fff;
+}
+.content-home h5{
+    color: #fff;
+}
+.content-home h1,h3,h4,span,h5{
+    color: #ffffff;
+}
+.content-home{
+    max-width: 600px;
+}
+/* .img{
+    display: flex;
+    flex-direction: row-reverse;
+} */
+.icon span a,img{
+    display: inline-block;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5cm;
+}
+.about-img img{
+    padding-bottom: 20px;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin-right: 50px;
+    margin-left: 220px;
+}
+.about-text{
+    color:#fff
+    
+}
+
+.about-text h3{
+    color:#fff
+    }
+
+.about-text h3 span{
+    color: #ff0000;
+}
+.about h1{
+    font-size: 50px;
+}
+.about p{
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 450px;
+}
+.bn{
+    margin: 10px;
+    padding: 15px;
+    background-color: #f4ca16;
+    border-radius: 40px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight:80px;
+    align-items: center;
+}
+.education{
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 90px;
+    color: #080808;
+}
+.padhai h2,h3,h5{
+    max-width: 200px;
+    color: #080808;
+}
+.highs{
+    max-width: 500px;
+    max-height: 500px;
+    border: 2px solid #f4ca16;
+    background-color: #f4ca16;
+    border-radius: 20px;
+    border-width: 70px;
+}
+.education h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+.ints{
+    max-width: 500px;
+    max-height: 500px;
+    border: 2px solid #f4ca16;  
+    background-color: #f4ca16;
+    border-radius: 20px;
+    border-width: 70px;
+}
+.clgs{
+    max-width: 500px;
+    max-height: 500px;
+    border: 2px solid #f4ca16;
+    background-color: #f4ca16;
+    border-radius: 20px;
+    border-width: 70px;
+}
+.padhai{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.mark{
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 15px;
+    background-color: #1d2951;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.skills h1{
+    color: #fff;
+    margin: 30px;
+    text-align: center;
+    font-size: 37px;
+    padding: 40px;
+}
+
+.skills1,.skills2{
+    color: #080808;
+    margin-left: 200px; 
+    padding-left: 50px;
+    margin-right: 200px; 
+    padding-right: 50px;
+    margin-bottom: 100px; 
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+}
+
+.skills1 ul{
+    color: #fff;
+}
+
+.skills2 ul{
+    color: #fff;
+}
+
+.skills1,.skills2{
+    display: inline-block;
+}
+
+.projects{
+    color: #080808;
+    text-align: center;
+    margin: 30px;
+    font-size: 27px;
+    padding: 40px;
+}
+.agrictech,.zeb{
+    display: inline;
+}
+
+.p{
+    color: #fff;
+}
+
+.footer{
+    color: #fff;
+    text-align: center;
+    /* font-size: 28px; */
+    margin-top: 50px;
+    margin-bottom: 25px ;
+}
+
+.footer h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+
+.form{
+    margin: 50px;
+    color: #080808;
+    border: 2px solid #fff;
+    border-radius: 9%;
+    justify-content: center;
+    
+    max-width: 600px;
+    text-align: unset ;
+    border-top-color: #f4ca16;
+    background-color: #f4ca16;
+    padding: 20px;
+    
+}
+.button{
+    background-color: #080808;
+    color: #f4ca16;
+    padding: 10px;
+    border-radius: 25%;
+}
+.button:hover{
+    background-color: green;
+}
+.footer h1{
+    justify-content: right;
+}
+
+h4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+    text-align: center;
+}
+
